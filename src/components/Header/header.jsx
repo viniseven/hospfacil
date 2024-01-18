@@ -17,8 +17,12 @@ export function Header() {
       </div>
 
       <div className="flex gap-5">
-        <Button icon={FiUser} onClick={handleActionButton} />
-        <Button icon={FiLogOut} />
+        <Button
+          icon={FiUser}
+          onClick={handleActionButton}
+          className="text-purple"
+        />
+        <Button icon={FiLogOut} className="text-purple" />
       </div>
     </div>
   );

@@ -5,6 +5,7 @@ export default {
     colors: {
       light_purple: "#ddd5ea",
       purple: "#590bd8",
+      dark_purple: "#490AB0",
       white: "#ffffff",
       walter_white: "#f5f5f5",
       light_gray: "#bbbfbf",
