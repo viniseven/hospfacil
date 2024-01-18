@@ -8,6 +8,7 @@ export default {
       dark_purple: "#490AB0",
       white: "#ffffff",
       walter_white: "#f5f5f5",
+      gray: "#717171",
       light_gray: "#bbbfbf",
       red: "#fe3838",
     },

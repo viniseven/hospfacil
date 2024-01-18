@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header/header";
 import { Input } from "../../components/Input/input";
 import { Button } from "../../components/Button/button";
+import { SearchTypes } from "../../components/SearchTypes/searchtypes";
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -12,7 +13,7 @@ export function Home() {
     <div>
       <Header />
 
-      <div className="p-5 text-center">
+      <div className=" p-5 text-center">
         <h1 className="text-lg font-semibold">
           Encontre sua próxima <span className="text-purple">viagem!</span>
         </h1>
@@ -44,6 +45,7 @@ export function Home() {
           />
         </div>
       </div>
+      <SearchTypes />
     </div>
   );
 }
