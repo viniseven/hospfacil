@@ -1,51 +1,18 @@
 import { Header } from "../../components/Header/header";
-import { Input } from "../../components/Input/input";
-import { Button } from "../../components/Button/button";
+
 import { SearchTypes } from "../../components/SearchTypes/searchtypes";
-
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-
-import { NumericFormat } from "react-number-format";
+import { RecomendedDestinations } from "../../components/RecommendedDestinations/recommendedDestinations";
+import { SearchTrips } from "../../components/SearchTrips/searchTrips";
 
 export function Home() {
   return (
     <div>
       <Header />
-
-      <div className=" p-5 text-center">
-        <h1 className="text-lg font-semibold">
-          Encontre sua próxima <span className="text-purple">viagem!</span>
-        </h1>
-
-        <div className="flex justify-center flex-wrap gap-3.5 mt-4">
-          <Input type="text" placeholder="Onde você quer ir?" />
-
-          <div className="flex gap-4">
-            <DatePicker
-              placeholderText="Primeira Data"
-              className="border-light_gray rounded-lg border p-2 w-full"
-            />
-            <NumericFormat
-              className="border-light_gray rounded-lg border p-2 w-full"
-              placeholder="Orçamento?"
-              allowNegative={false}
-              decimalScale={2}
-              decimalSeparator=","
-              fixedDecimalScale={true}
-              prefix="R$ "
-              thousandsGroupStyle="mil"
-              thousandSeparator="."
-            />
-          </div>
-
-          <Button
-            className="bg-purple hover:bg-dark_purple text-white w-full p-2 rounded-lg font-semibold "
-            title="Pesquisar"
-          />
-        </div>
-      </div>
-      <SearchTypes />
+      <main className=" flex flex-col gap-5 p-5">
+        <SearchTrips />
+        <SearchTypes />
+        <RecomendedDestinations />
+      </main>
     </div>
   );
 }

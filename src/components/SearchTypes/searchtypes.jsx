@@ -5,7 +5,7 @@ import farmIcon from "../../assets/farm-icon.png";
 
 export function SearchTypes() {
   return (
-    <div className="p-5">
+    <div>
       <div className="flex items-center gap-2">
         <div className="h-[1px] w-full bg-light_gray"></div>
         <h1 className="text-gray whitespace-nowrap">Tente pesquisar por</h1>
