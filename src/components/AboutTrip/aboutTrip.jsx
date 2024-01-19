@@ -1,17 +1,6 @@
-import { useEffect, useRef, useState } from "react";
-
 import checkIcon from "../../assets/check.svg";
 
 export function AboutTrip() {
-  const ref = useRef(null);
-  const [map, setMap] = useState();
-
-  useEffect(() => {
-    if (ref.current && !map) {
-      setMap(new window.google.maps.Map(ref.current, {}));
-    }
-  }, [ref, map]);
-
   return (
     <div className="flex flex-col gap-10">
       <div>
@@ -26,7 +15,7 @@ export function AboutTrip() {
         </p>
       </div>
 
-      <div>
+      <div className="mb-5">
         <h2 className="font-semibold">Destaques</h2>
 
         <div className="grid grid-cols-2 gap-2">
