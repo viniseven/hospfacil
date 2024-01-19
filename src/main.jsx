@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import { Details } from "./pages/Details/details";
+import { FoundSearch } from "./pages/FoundSearch/foundSearch";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Details />
+    <FoundSearch />
   </React.StrictMode>
 );
