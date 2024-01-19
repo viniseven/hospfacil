@@ -1,4 +1,5 @@
 import { Header } from "../../components/Header/header";
+import { Footer } from "../../components/Footer/footer";
 
 import { SearchTypes } from "../../components/SearchTypes/searchtypes";
 import { RecomendedDestinations } from "../../components/RecommendedDestinations/recommendedDestinations";
@@ -13,6 +14,7 @@ export function Home() {
         <SearchTypes />
         <RecomendedDestinations />
       </main>
+      <Footer />
     </div>
   );
 }

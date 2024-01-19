@@ -9,7 +9,8 @@ export function RecomendedDestinations() {
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
-      <div className="flex flex-col mt-4">
+      <div className="flex flex-col mt-4 gap-4">
+        <ItemLocation />
         <ItemLocation />
       </div>
     </div>

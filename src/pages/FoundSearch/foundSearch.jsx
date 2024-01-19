@@ -1,7 +1,8 @@
 import { Header } from "../../components/Header/header";
 import { ItemLocation } from "../../components/ItemLocation/itemlocation";
+import { Footer } from "../../components/Footer/footer";
 
-export function FoundeSearch() {
+export function FoundSearch() {
   return (
     <div>
       <Header />
@@ -20,6 +21,7 @@ export function FoundeSearch() {
           <ItemLocation />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
