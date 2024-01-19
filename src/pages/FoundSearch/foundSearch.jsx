@@ -13,7 +13,7 @@ export function FoundeSearch() {
         <p className="text-gray font-medium text-center">
           Listamos os melhores locais para você!
         </p>
-        <div className="flex flex-col items-center gap-4 mt-4 w-full max-h-[500px] overflow-y-auto">
+        <div className="flex flex-col items-center gap-4 mt-4 w-full">
           <ItemLocation />
           <ItemLocation />
           <ItemLocation />
