@@ -8,7 +8,7 @@ export function MyTrips() {
     <div>
       <Header />
 
-      <main className="p-5">
+      <main className="flex flex-col gap-5 px-5">
         <h1 className="text-xl font-semibold mb-5">Minhas Viagens</h1>
 
         <div className="flex flex-col gap-5 p-5 border border-light_gray rounded-xl shadow-[0_6px_16px_0_rgba(0,0,0,0.12)] ">
@@ -55,7 +55,7 @@ export function MyTrips() {
 
           <Button
             title="Cancelar"
-            className="border border-red rounded-lg p-2 text-red text-sm font-semibold"
+            className="border border-red rounded-lg p-2 text-red text-sm font-semibold hover:bg-red hover:text-white"
           />
         </div>
       </main>
