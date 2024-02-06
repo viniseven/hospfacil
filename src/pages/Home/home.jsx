@@ -9,10 +9,11 @@ export function Home() {
   return (
     <div>
       <Header />
+
       <main className=" flex flex-col gap-5 p-5">
         <SearchTrips />
         <SearchTypes />
-        <RecomendedDestinations />
+        <RecomendedDestinations />s
       </main>
       <Footer />
     </div>
