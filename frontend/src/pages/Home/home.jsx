@@ -10,7 +10,7 @@ export function Home() {
     <div className="relative min-h-screen">
       <Header />
 
-      <main className="flex flex-col items-center gap-5 pb-20 px-5">
+      <main className="flex flex-col items-center gap-5 p-5">
         <SearchTrips />
         <SearchTypes />
         <RecomendedDestinations />
