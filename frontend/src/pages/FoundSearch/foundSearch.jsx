@@ -1,13 +1,13 @@
-import { Header } from '../../components/Header/header';
-import { ItemLocation } from '../../components/ItemLocation/itemlocation';
-import { Footer } from '../../components/Footer/footer';
+import { Header } from "../../components/Header/header";
+import { ItemLocation } from "../../components/ItemLocation/itemlocation";
+import { Footer } from "../../components/Footer/footer";
 
 export function FoundSearch() {
   return (
     <div className="relative min-h-screen">
       <Header />
 
-      <main className="pb-20">
+      <main className="pt-5 px-5 pb-20">
         <h1 className="text-black font-semibold text-xl text-center">
           Hospedagens Encontradas
         </h1>
