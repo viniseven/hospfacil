@@ -1,18 +1,18 @@
-import hotelIcon from "../../assets/hotel-icon.png";
-import cottageIcon from "../../assets/cottage-icon.png";
-import innIcon from "../../assets/inn-icon.png";
-import farmIcon from "../../assets/farm-icon.png";
+import hotelIcon from '../../assets/hotel-icon.png';
+import cottageIcon from '../../assets/cottage-icon.png';
+import innIcon from '../../assets/inn-icon.png';
+import farmIcon from '../../assets/farm-icon.png';
 
 export function SearchTypes() {
   return (
-    <div>
-      <div className="flex items-center gap-2">
+    <div className="w-full">
+      <div className="flex items-center gap-2 w-full">
         <div className="h-[1px] w-full bg-light_gray"></div>
         <h1 className="text-gray whitespace-nowrap">Tente pesquisar por</h1>
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
-      <div className="flex justify-between mt-5">
+      <div className="flex justify-around gap-8 mt-5">
         <div className="flex flex-col items-center gap-1">
           <img src={hotelIcon} alt="Icon hotel" width={30} height={30} />
           <p className="text-sm text-gray">Hotéis</p>
