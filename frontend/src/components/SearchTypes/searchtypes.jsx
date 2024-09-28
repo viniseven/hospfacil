@@ -2,6 +2,7 @@ import hotelIcon from '../../assets/hotel-icon.png';
 import cottageIcon from '../../assets/cottage-icon.png';
 import innIcon from '../../assets/inn-icon.png';
 import farmIcon from '../../assets/farm-icon.png';
+import resortIcon from '../../assets/resort.png';
 
 export function SearchTypes() {
   return (
@@ -12,7 +13,7 @@ export function SearchTypes() {
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
-      <div className="flex justify-around gap-8 mt-5">
+      <div className="flex justify-between gap-8 mt-5 overflow-auto">
         <div className="flex flex-col items-center gap-1">
           <img src={hotelIcon} alt="Icon hotel" width={30} height={30} />
           <p className="text-sm text-gray">Hotéis</p>
@@ -31,6 +32,11 @@ export function SearchTypes() {
         <div className="flex flex-col items-center gap-1">
           <img src={farmIcon} alt="Icon farm" width={30} height={30} />
           <p className="text-sm text-gray">Fazendas</p>
+        </div>
+
+        <div className="flex flex-col items-center gap-1">
+          <img src={resortIcon} alt="Icon farm" width={30} height={30} />
+          <p className="text-sm text-gray">Resorts</p>
         </div>
       </div>
     </div>
