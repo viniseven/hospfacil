@@ -2,7 +2,7 @@ import auroraHotel from "../../assets/aurora-hotel.svg";
 
 export function ItemLocation() {
   return (
-    <div>
+    <div className="flex flex-col w-full">
       <img src={auroraHotel} alt="Aurora Hotel" className="rounded-lg mb-2" />
       <div>
         <p className="text-black">Hotel Aurora</p>

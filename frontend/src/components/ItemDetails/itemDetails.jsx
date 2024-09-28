@@ -10,10 +10,14 @@ import auroraHotel from "../../assets/aurora-hotel.svg";
 export function ItemDetails() {
   return (
     <div>
-      <div>
-        <img src={auroraHotel} alt="Hotel Aurora" className="w-full mb-4" />
+      <div className="px-5 pt-20">
+        <img
+          src={auroraHotel}
+          alt="Hotel Aurora"
+          className="rounded-lg w-full"
+        />
 
-        <main className="px-5">
+        <main>
           <div>
             <h1 className="text-xl font-semibold">Hotel Aurora</h1>
             <p className="text-xs text-gray font-medium">
