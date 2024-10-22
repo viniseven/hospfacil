@@ -1,4 +1,4 @@
-import { ItemLocation } from "../ItemLocation/itemlocation";
+import { ItemLocation } from '../ItemLocation/itemlocation';
 
 export function RecomendedDestinations() {
   return (
@@ -9,7 +9,16 @@ export function RecomendedDestinations() {
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
-      <div className="flex flex-col items-center mt-4 gap-4 w-full">
+      <div className="flex flex-col md:grid grid-cols-3 lg:grid-cols-4 items-center mt-4 gap-4 w-full">
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
+        <ItemLocation />
         <ItemLocation />
         <ItemLocation />
         <ItemLocation />
