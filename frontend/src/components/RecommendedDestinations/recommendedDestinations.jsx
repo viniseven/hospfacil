@@ -9,6 +9,7 @@ export function RecomendedDestinations() {
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
+<<<<<<< HEAD
       <div className="flex flex-col md:grid grid-cols-3 lg:grid-cols-4 items-center mt-4 gap-4 w-full">
         <ItemLocation />
         <ItemLocation />
@@ -19,6 +20,9 @@ export function RecomendedDestinations() {
         <ItemLocation />
         <ItemLocation />
         <ItemLocation />
+=======
+      <div className="grid items-center mt-4 gap-4 w-full md:grid-cols-3">
+>>>>>>> dfadf4468b718eb5b213906dd967a84b09b18581
         <ItemLocation />
         <ItemLocation />
         <ItemLocation />
