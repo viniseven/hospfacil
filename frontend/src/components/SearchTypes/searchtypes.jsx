@@ -13,7 +13,7 @@ export function SearchTypes() {
         <div className="h-[1px] w-full bg-light_gray"></div>
       </div>
 
-      <div className="flex justify-between gap-8 mt-5 overflow-auto">
+      <div className="flex justify-around gap-8 mt-5 overflow-auto">
         <div className="flex flex-col items-center gap-1">
           <img src={hotelIcon} alt="Icon hotel" width={30} height={30} />
           <p className="text-sm text-gray">Hotéis</p>
