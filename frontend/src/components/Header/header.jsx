@@ -1,8 +1,8 @@
-import { Button } from "../Button/button";
+import { Button } from '../Button/button';
 
-import { FiUser, FiLogOut } from "react-icons/fi";
+import { FiUser, FiLogOut } from 'react-icons/fi';
 
-import logo from "../../assets/vector.svg";
+import logo from '../../assets/vector.svg';
 
 export function Header() {
   return (
